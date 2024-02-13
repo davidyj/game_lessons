@@ -29,6 +29,7 @@ def main():
     # Assuming you have a main game loop and a display surface called 'screen'
     # screen.blit(tile_image, (0, 0))  # Draw the tile at position (50, 50) on the screen
 
+
     running = True
     while running:
         for event in pygame.event.get():
