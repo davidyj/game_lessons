@@ -1,0 +1,41 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map1.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "map1.tmx": {
+            "scale": 1.4992187499999998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -448.90046899426784,
+                "y": -383.86659718603437
+            }
+        },
+        "map3.tmx": {
+            "scale": 1.413125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 410.437859354268,
+                "y": 320.2122954444936
+            }
+        },
+        "village.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "map1.tmx",
+        "map3.tmx"
+    ],
+    "project": "map3.tiled-project",
+    "recentFiles": [
+        "map3.tmx",
+        "map1.tmx"
+    ]
+}

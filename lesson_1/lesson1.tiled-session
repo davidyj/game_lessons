@@ -13,9 +13,12 @@
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -542.6666666666666,
-                "y": 24.66666666666663
+                "x": 161.33333333333337,
+                "y": 306
             }
+        },
+        "map/map1.tmx#village": {
+            "scaleInDock": 1
         },
         "map/village.tsx": {
             "scaleInDock": 1,
@@ -30,8 +33,6 @@
     "map.tileHeight": 48,
     "map.tileWidth": 48,
     "openFiles": [
-        "map/village.tsx",
-        "map/map1.tmx"
     ],
     "project": "lesson1.tiled-project",
     "recentFiles": [
