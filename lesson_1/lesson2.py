@@ -26,12 +26,11 @@ def draw_map(surface, tmx_data):
 
 
 # Integrating with Pygame
-def run():
+def main():
     pygame.init()
-    screen = pygame.display.set_mode((800, 600))
-    tmx_data = load_map("your_map_file.tmx")
+    screen = pygame.display.set_mode((640, 480))
+    tmx_data = load_map("C:\\game_lessons\\lesson_1\\map\\map3.tmx")
 
-    clock = pygame.time.Clock()
     running = True
 
     while running:
@@ -42,9 +41,8 @@ def run():
         screen.fill((0, 0, 0))  # Clear the screen with black
         draw_map(screen, tmx_data)
         pygame.display.flip()  # Update the full display Surface to the screen
-        clock.tick(60)
 
     pygame.quit()
 
 if __name__ == "__main__":
-    run()
+    main()
