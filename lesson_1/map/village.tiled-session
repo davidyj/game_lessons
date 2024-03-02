@@ -1,0 +1,73 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "village_2.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "village..tmx": {
+            "scale": 1.5991666666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.85409067222514,
+                "y": 239.8124022928609
+            }
+        },
+        "village..tmx#village": {
+            "scaleInDock": 1
+        },
+        "village.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 319.66666666666663,
+                "y": 239.99999999999997
+            }
+        },
+        "village.tmx#village": {
+            "scaleInDock": 0.75
+        },
+        "village3.tmx": {
+            "scale": 1.1993749999999999,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 400.6253256904638,
+                "y": 320.58363731109955
+            }
+        },
+        "village3.tmx#v1": {
+            "scaleInDock": 1
+        },
+        "village_2.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.5,
+                "y": 240
+            }
+        },
+        "village_2.tmx#village": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/game_lessons/lesson_1/map/village",
+    "last.imagePath": "C:/game_lessons/lesson_1/map/village",
+    "map.height": 20,
+    "map.lastUsedExportFilter": "Tiled map files (*.tmx *.xml)",
+    "map.lastUsedFormat": "tmx",
+    "map.width": 25,
+    "openFiles": [
+        "village.tmx",
+        "village_2.tmx"
+    ],
+    "project": "village.tiled-project",
+    "recentFiles": [
+        "village.tmx",
+        "village_2.tmx",
+        "village..tmx"
+    ],
+    "tileset.embedInMap": true
+}
