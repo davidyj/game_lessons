@@ -1,3 +1,7 @@
+
+# game resource 
+# https://www.pinterest.com/rafaykhanaddict/character-sprites/
+
 import pygame
 import sys
 
@@ -21,18 +25,21 @@ sprite_sheet_image = 'C:\\game_lessons\\lesson_1\\data\\hero2.png'  # Update to 
 sprite_sheet = pygame.image.load(sprite_sheet_image)
 
 # Function to extract a sprite from the sheet
-def get_sprites(x, y, width, height, num_frames):
+def get_sprites(x, y, width, height, num_frames,scale_factor):
     """Extracts and returns sprites from the sprite sheet."""
     sprites = []
     for i in range(num_frames):
         sprite = pygame.Surface((width, height), pygame.SRCALPHA)
         sprite.blit(sprite_sheet, (0, 0), (x + width * i, y, width, height))
+        if scale_factor != 1:
+            sprite = pygame.transform.scale(sprite, (int(width * scale_factor), int(height * scale_factor)))
         sprites.append(sprite)
     return sprites
 
 # Sprite dimensions, positions, and number of frames (example values)
 sprite_width, sprite_height = 90, 180
 num_frames_per_direction = 4  # Number of frames in each animation
+scale_factor = 0.5
 positions = {
     'down': (0, 0),
     'right': (0, sprite_height * 1),
@@ -42,7 +49,7 @@ positions = {
 
 # Load sprites from the sheet
 hero_sprites = {
-    dir: get_sprites(x, y, sprite_width, sprite_height, num_frames_per_direction)
+    dir: get_sprites(x, y, sprite_width, sprite_height, num_frames_per_direction,scale_factor)
     for dir, (x, y) in positions.items()
 }
 
